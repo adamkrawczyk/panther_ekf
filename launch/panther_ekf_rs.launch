@@ -10,7 +10,6 @@
 
     <include file="$(find panther_ekf)/launch/panther_rs_d435i_t265.launch"></include>
 
-    <node pkg="tf" type="static_transform_publisher" name="t265_tf_publisher" args="0 0 0 0 0 0 /t265_link /base_link 100"/>
-    <node pkg="tf" type="static_transform_publisher" name="d435i_tf_publisher" args="0 0 0 0 0 0 /d435i_link /base_link_link 100"/>
+
 
 </launch>
